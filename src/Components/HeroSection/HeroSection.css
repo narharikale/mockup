@@ -1,0 +1,41 @@
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 60px 0;
+}
+
+.videoContainer {
+  max-width: 50%;
+  border: 12px;
+}
+
+.heroHeading {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.primaryBtn {
+  padding: 12px;
+  background-color: var(--primary-color);
+  font-size: 14px;
+  font-size: 500;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.signInBtn {
+  flex-grow: 1;
+  background-color: blue;
+  color: #fff;
+  padding: 4px;
+  border: none;
+  height: 40px;
+}

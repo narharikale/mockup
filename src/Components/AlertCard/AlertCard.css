@@ -1,0 +1,19 @@
+.alertContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1264a3;
+  height: 80px;
+  padding: 0 32px;
+  border-radius: 100vh;
+  color: #fff;
+}
+
+.link {
+  color: #fff;
+}
+.clearBtn {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
