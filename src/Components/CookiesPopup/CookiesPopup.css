@@ -1,0 +1,15 @@
+.cookiesContainer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fff;
+  width: 20rem;
+  height: 20rem;
+
+  padding: 12px;
+  box-shadow: 0 4px 40px #00000014;
+}
+
+p {
+  padding: 0;
+}

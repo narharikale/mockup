@@ -5,6 +5,7 @@ import ClientImageBar from "./Components/ClientImagesBar/ClientImageBar";
 import HeroSection from "./Components/HeroSection/HeroSection";
 import Navbar from "./Components/Navbar/Navbar";
 import VideoSection from "./Components/VideoSection/VideoSection";
+import CookiesPopup from "./Components/CookiesPopup/CookiesPopup";
 
 function App() {
   const [showAlertCard, setShowAlertCard] = useState(true);
@@ -17,6 +18,7 @@ function App() {
       <HeroSection />
       <ClientImageBar />
       <VideoSection />
+      <CookiesPopup />
     </main>
   );
 }
