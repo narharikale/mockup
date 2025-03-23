@@ -1,6 +1,6 @@
 import "./AlertCard.css";
 
-function AlertCard() {
+function AlertCard({ setShowAlertCard }) {
   return (
     <div className="alertContainer">
       <p>
@@ -14,7 +14,7 @@ function AlertCard() {
         </span>
       </p>
 
-      <button className="clearBtn">
+      <button className="clearBtn" onClick={() => setShowAlertCard(false)}>
         <svg
           aria-hidden=""
           width="18"

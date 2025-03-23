@@ -13,7 +13,7 @@ function HeroSection() {
         </p>
         <div className="buttonContainer">
           <button className="primaryBtn">TRY FOR FREE</button>
-          <button className="signInBtn"> svg SIGN UP WITH GOOGLE</button>
+          <button className="signInBtn">SIGN UP WITH GOOGLE</button>
         </div>
       </div>
       <div className="videoContainer">
