@@ -1,0 +1,78 @@
+.navContainer {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 76rem;
+  margin: auto;
+  align-items: center;
+  padding: 12px;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.logo {
+  height: 40px;
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.primaryBtn {
+  padding: 12px;
+  background-color: var(--primary-color);
+  font-size: 14px;
+  font-size: 500;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.secondaryBtn {
+  padding: 12px;
+  background-color: transparent;
+  font-size: 14px;
+  font-size: 500;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.linkBtn {
+  border: none;
+}
+
+.iconBtn {
+  background-color: transparent;
+  border: none;
+  padding: 4px;
+}
